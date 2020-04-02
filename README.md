@@ -1,9 +1,9 @@
-# rifandani.github.io
+# Static Portfolio Website
 
-A Static Portfolio Website by ~~Tri Rizeki Rifandani~~<br>
+![logo](https://rifandani.github.io/assets/img/logo.PNG)
+
+~~Tri Rizeki Rifandani~~<br>
 *Pendidikan Teknik Mekatronika*<br>
 **Universitas Negeri Yogyakarta**<br>
 
-> A Brief introduction of myself
----
-![logo](https://rifandani.github.io/assets/img/logo.PNG)
+> visit my [Project Website](https://rifandani.educationhost.cloud/)
