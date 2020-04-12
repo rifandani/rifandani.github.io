@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Meal Finder</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"><span class="navbar-brand mb-0 h1">Meal
+        Finder</span>
+      <div class="container-fluid">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#top">Search</a></li>
+          <li class="nav-item"><a class="nav-link" href="#buttonRandom">Random Meal</a></li>
+          <li class="nav-item"><a class="nav-link" href="#buttonList">All Categories</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main id="top">
+    <search-bar></search-bar>
+    <meal-list></meal-list>
+    <section class="container">
+      <div class="row">
+        <div class="card card-body"><button class="btn btn-info" id="buttonRandom" type="submit">Get Random
+            Meal</button></div>
+      </div>
+    </section><br>
+    <section class="container" id="randomItem"></section><br>
+    <section class="container">
+      <div class="row">
+        <div class="card card-body"><button class="btn btn-success" id="buttonList" type="submit">Get List All Meal
+            Categories</button></div>
+      </div>
+    </section>
+    <section class="container" id="listItem"></section>
+  </main>
+  <script src="bundle.js"></script>
+</body>
+
+</html>
